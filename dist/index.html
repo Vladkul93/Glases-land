@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" type="text/html">
+    <!-- Icon Brouser -->
+    <link rel="shortcut icon" href="./img/sunglasses.jpg" type="image/x-icon">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Leo Shop</title>
+</head>
+<body>
+    <div class="box">
+        <div class="header" id="header">
+    <div class="header-box">
+        <div class="header-bg">
+            <div class="header-nav">
+                <div class="nav-select">
+                    <div class="nav-lang">
+                        <p class="lang">Language:</p>
+                            <select>
+                                <option>English</option>
+                                <option>Ukraine</option>
+                            </select>
+                    </div>
+                    <div class="nav-cur">
+                        <p class="cur">Currency:</p>
+                        <select>
+                            <option>USD</option>
+                            <option>UAH</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="header-list">
+                    <ul>
+                        <li>
+                            <a href="">Account</a>
+                        </li>
+                            <div class="shape"></div>
+                        <li>
+                            <a href="">Wishlist</a>
+                        </li>
+                            <div class="shape"></div>
+                        <li>
+                            <a href="">Checkout</a>
+                        </li>
+                            <div class="shape"></div>
+                        <li>
+                            <a href=""> Log In</a>
+                        </li>
+                            <div class="shape"></div>
+                        <li>
+                            <a href="">Sign Up</a>
+                        </li>
+                    </ul>
+                    <!-- dropDown -->
+                        <div class="dropdown">
+                            <button  class="drop-down__style " > <img onclick="myFunction()" class="menu-img dropbtn" src="./img/adduser.png" alt="hang">
+                            </button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <ul>
+                                    <li>
+                                        <a href="">Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Wishlist</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Checkout</a>
+                                    </li>
+                                    <li>
+                                        <a href=""> Log In</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sign Up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    <!-- dropDown -->
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="header-icon top-icon">
+                <div class="icon-border">
+                    <img src="./img/iconNav1.png" alt="">
+                </div>
+                <div class="icon-border">
+                    <img src="./img/iconNav2.png" alt="">
+                </div>
+                <p>Cart  (0)</p>
+            </div>
+            <div class="header-menu__box">
+                <div class="header-logo">
+                    <p>LEO Shop</p> 
+                </div>
+                <div class="header-menu__list">
+                    <ul>
+                        <li>
+                            <a href="">Home</a> 
+                        </li>
+                        <li>
+                            <a href="">women</a> 
+                        </li>
+                        <li>
+                            <a href="">men</a> 
+                        </li>
+                        <li>
+                            <a href="">other</a> 
+                        </li>
+                        <li>
+                            <a href="">purchase</a> 
+                        </li>                         
+                    </ul>
+                        <form>
+                            <div class="header-search">
+                                <div class="search">
+                                    <input type="search" placeholder="Search.." name="q">
+                                    <input type="submit" value="">
+                                </div>
+                                <div class="header-icon">
+                                    <div class="icon-border">
+                                        <img src="./img/iconNav1.png" alt="">
+                                    </div>
+                                    <div class="icon-border">
+                                        <img src="./img/iconNav2.png" alt="">
+                                    </div>
+                                        <p>Cart  (0)</p>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+<span class="burger-menu" onclick="openNav()" >
+    <i class="fas fa-bars"></i>
+</span>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        <img src="./img/close.svg" alt="close">
+    </a>
+    <ul>
+        <li>
+            <a href="">Home</a> 
+        </li>
+        <li>
+            <a href="">women</a> 
+        </li>
+        <li>
+            <a href="">men</a> 
+        </li>
+        <li>
+            <a href="">other</a> 
+        </li>
+        <li>
+            <a href="">purchase</a> 
+        </li>                         
+    </ul>
+    <form>
+        <div class="search search-burg">
+            <input type="search" placeholder="Search.." name="q">
+            <input type="submit" value="">
+        </div>
+    </form>
+</div>
+
+        </div>
+    </div>
+</div>
+<div class="slider">
+    <div class="slider-img" style="background-image: url('./img/Slider.jpg');">
+        <div class="slider-text">
+            <p class="text1">Aluminum club</p>
+            <p class="text2">Experience ray-ban</p>
+        </div>
+    </div>
+    <div class="slider-img" style="background-image: url('./img/Slider.jpg');">
+        <div class="slider-text">
+            <p class="text1 blue">Aluminum club</p>
+            <p class="text2 blue">Experience ray-ban</p>
+        </div>
+    </div>
+    <div class="slider-img" style="background-image: url('./img/Slider.jpg');">
+        <div class="slider-text">
+            <p class="text1 red">Aluminum club</p>
+            <p class="text2 red">Experience ray-ban</p>
+        </div>
+    </div>
+</div>
+        <div class="main">
+    <div class="main-content">
+    <div class="main-box">
+        <h2>Featured Products</h2>
+        <div class="gallery__inner">
+            <a href="./img/glass1.jpg" title="Aviator $388" >
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass1.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $388.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass2.jpg" title="Сat eye $90">
+                <div class="inner-border">
+                        <img src="./img/glass2.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $90.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass3.jpg" title="Tyshades $300">
+                <div class="inner-border">
+                        <img class="sale" src="./img/Sale.png" alt="">
+                        <img src="./img/glass3.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p><span class="thought">$460</span>  $300.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass4.jpg" title="Wayfarers $180">
+                <div class="inner-border">
+                        <img src="./img/glass4.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $180.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass5.jpg" title="Tyshades $278">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass5.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $278.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass6.jpg" title="Wayfarers $378">
+                <div class="inner-border">
+                        <img src="./img/glass6.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $378.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass7.jpg" title="Sai fi $500">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass7.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $500.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass8.jpg" title="Panto $200">
+                <div class="inner-border">
+                        <img class="sale" src="./img/Sale.png" alt="">
+                        <img src="./img/glass8.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p><span class="thought">$460</span>$200.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass9.jpg" title="Browliners $370">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass9.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $370.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>   
+    <h2>staff pick</h2>
+            <div class="new">
+                
+            <a href="./img/glass9.jpg" title="Browliners $378">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass9.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $378.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass5.jpg" title="Aviator $278">
+                <div class="inner-border">
+                        <img src="./img/glass5.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $278.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass3.jpg" title="Panto $188">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass3.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $188.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+        </div> 
+        <h2>New Products</h2>
+            <div class="new">
+            <a href="./img/glass6.jpg" title="Сat eye $90">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass6.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $90.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass3.jpg" title="Tyshades $60">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass3.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $60.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+            <a href="./img/glass4.jpg" title="Wayfarers $378">
+                <div class="inner-border">
+                        <img class="sale-new" src="./img/saleNew.png" alt="">
+                        <img src="./img/glass4.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="inner-text">
+                                <p>Lorem Ipsum is simply.</p>
+                                <p>  $378.00</p>
+                            </div>
+                            <img src="./img/basket.png" alt="">
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+        <div class="main-banner">
+            <div class="carusel">
+                <div class="carusel__box">
+                    <p>Featured Glass 1</p>
+                    <img src="./img/Banner.jpg" alt="">
+                    <button> Check it Out </button>
+                </div>
+                <div class="carusel__box">
+                    <p>Featured Glass 2</p>
+                    <img src="./img/Banner.jpg" alt="">
+                    <button> Check it Out </button>
+                </div>
+                <div class="carusel__box">
+                    <p>Featured Glass 3</p>
+                    <img src="./img/Banner.jpg" alt="">
+                    <button> Check it Out </button>
+                </div>
+            </div>
+            <div class="main-form">
+                <p>newsletters signup</p>
+                <p>Lorem ipsum dolor sit amen, dolor imun ra adlip 
+                    ulissys </p>
+                    <div class="main-line"></div>
+                <form action="">
+                    <input type="text">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="footer">
+    <div class="footer-box">
+        <div class="footer-bg1">
+            <div class="foter-call">
+                <div class="footer-truck">
+                    <div class="cont-border">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p>Free shipping on orders over $100</p>
+                </div>
+                <div class="footer-tel">
+                    <div class="cont-border">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <p>call us! toLl free- <a href="tel:409-8888-0099">409-8888-0099</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bg2">
+            <div class="footer-adress">
+                <div class="box__info-1" data-number="0">Facebook
+                    <div class="facebook-box info__1">
+                    <p>20000 Members</p>
+                    <button class="footer-btn"><img src="./img/like.png" alt=""></button>
+                        <div class="facebook-line"></div>
+                        <div class="facebook-img">
+                            <img src="./img/avatar1.jpg" alt="">
+                            <img src="./img/avatar2.jpg" alt="">
+                            <img src="./img/avatar3.jpg" alt="">
+                            <img src="./img/avatar4.jpg" alt="">
+                            <img src="./img/avatar4.jpg" alt="">
+                            <img src="./img/avatar3.jpg" alt="">
+                            <img src="./img/avatar2.jpg" alt="">  
+                            <img src="./img/avatar1.jpg" alt="">
+                        </div>
+                        <div class="facebook-line"></div>
+                        <p>facebook Social plugin</p>
+                    </div>
+                </div>
+                    <div class="box__info-1" data-number="1">From twitter
+                    <div class="twitter-box info__1">
+                        <div class="twitter top-tw">
+                            <div class="twitter-border">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and <span class="new-color"> typesetting industry. Lorem Ipsum</span> has been the </p>
+                        </div>
+                        <div class="twitter">
+                            <div class="twitter-border">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and <span class="new-color">typesetting industry. Lorem Ipsum</span> has been the </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__info-1" data-number="2">information
+                        <ul class=" info info__1 start-ul" >
+                            <li> <i class="fas fa-chevron-right"></i>Sed ultrices purus non.</li>
+                            <li> <i class="fas fa-chevron-right"></i>sodales sodales.</li>
+                            <li> <i class="fas fa-chevron-right"></i>Curabitur pretium dui vitae.</li>
+                            <li> <i class="fas fa-chevron-right"></i>Donec gravida mi in nisl </li>
+                            <li> <i class="fas fa-chevron-right"></i>faucibus leo condimentum.</li>
+                            <li> <i class="fas fa-chevron-right"></i>Donec et lorem suscipit.</li>
+                        </ul>
+                    </div>
+                    <div class="box__info-1 info-mrgn" data-number="3">Contact Us
+                        <div class="info__1">
+                    <ul>
+                        <li>  Leo Store</li>
+                        <li>Leopards media</li>
+                        <li>KVM Rpad, 4590GH</li>
+                        <li><a href="tel:+1 489-8888-0099">+1 489-8888-0099</a></li>
+                        <li>mail@email.com</li>
+                    </ul>
+                    <div class="facebook-line"></div>
+                    <div class="footer-icon">
+                        <div class="border-icon">
+                            <i class="fab fa-google-plus-g"></i>
+                        </div>
+                        <div class="border-icon ">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="border-icon wi-fi">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <div class="border-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="footer-bg3">
+            <div class="footer-end">                          
+                <p>© Copyright 2022 Css Author, All Rights Reserved.</p>
+                <ul>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                        <div class="shape"></div>
+                    <li>
+                        <a href="">Delivery & Returns</a>
+                    </li>
+                        <div class="shape"></div>
+                    <li>
+                        <a href="">Terms & Conditions</a>
+                    </li>
+                        <div class="shape"></div>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+        <a href="#header" class="top">
+            <i class="far fa-caret-square-up"></i>
+        </a>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script src="https://kit.fontawesome.com/e2a87a6f89.js" crossorigin="anonymous"></script>
+<script src="./js/script.js" ></script>
+</body>
+</html>
